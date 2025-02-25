@@ -157,7 +157,7 @@ layers:
   - ^
   - '&'
   - '*'
-  - (
+  - PgUp
   - )
   - {t: '`', s: '~'}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
@@ -186,7 +186,7 @@ layers:
   - '&studio_unlock'
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:progress-download$$
   - {type: held}
