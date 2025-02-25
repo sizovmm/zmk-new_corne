@@ -9,6 +9,10 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
+&mt {
+  quick-tap-ms = <200>;
+};
+
 /*
 
    &mmv_input_listener {
@@ -21,8 +25,8 @@
 
  */
 
-#define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // 600
-#define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
+#define ZMK_MOUSE_DEFAULT_MOVE_VAL 2400  // 600
+#define ZMK_MOUSE_DEFAULT_SCRL_VAL 30    // 10
 
 / {
     behaviors {
@@ -37,7 +41,7 @@
     rgb_encoder: rgb_encoder {
         compatible = "zmk,behavior-sensor-rotate";
         #sensor-binding-cells = <0>;
-        bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
+        bindings = <&rgb_ug RGB_HUI>, <&rgb_ug RGB_HUD>;
     };
 
     scroll_encoder: scroll_encoder {
