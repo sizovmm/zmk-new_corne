@@ -160,7 +160,7 @@ layers:
   - (
   - )
   - {t: '`', s: '~'}
-  - $$mdi:progress-download$$
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
   - RGB ON
   - RGB OFF
   - RGB HUI
@@ -175,7 +175,7 @@ layers:
   - RGB EFF
   - RGB EFR
   - RGB COLOR HSB(355,78,48)
-  - '&studio_unlock'
+  - $$mdi:progress-download$$
   - OUT USB
   - OUT BLE
   - {t: QWERTY, h: toggle}
@@ -183,16 +183,16 @@ layers:
   - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - _
-  - +
-  - '{'
-  - '}'
-  - '|'
-  - '~'
+  - '&studio_unlock'
+  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:progress-download$$
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   Fn:
