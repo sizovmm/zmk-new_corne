@@ -13,6 +13,10 @@
   quick-tap-ms = <200>;
 };
 
+&lt {
+  quick-tap-ms = <200>;
+};
+
 /*
 
    &mmv_input_listener {
@@ -25,7 +29,7 @@
 
  */
 
-#define ZMK_MOUSE_DEFAULT_MOVE_VAL 2400  // 600
+#define ZMK_MOUSE_DEFAULT_MOVE_VAL 3600  // 600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 30    // 10
 
 / {
