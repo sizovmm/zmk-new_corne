@@ -1,136 +1,185 @@
 layers:
   QWERTY:
-  - $$mdi:keyboard-esc$$
+  - {t: '[', s: '{'}
   - Q
   - W
   - E
   - R
   - T
-  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - Y
   - U
   - I
   - O
   - P
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
+  - {t: ']', s: '}'}
+  - $$mdi:apple-keyboard-control$$
   - A
   - S
   - D
   - F
   - G
-  - $$mdi:arrow-left-bold$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - H
   - J
   - K
   - L
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
   - Z
   - X
   - C
   - V
   - B
-  - $$mdi:keyboard-space$$
-  - $$mdi:arrow-down-bold$$
+  - '&mkp MB2'
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - N
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:keyboard-esc$$
-  - LGUI
-  - NUMBER
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - {t: '$$mdi:keyboard-return$$', h: Fn}
-  - SYMBOL
-  - $$mdi:apple-keyboard-option$$
-  NUMBER:
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
+  - {t: \, s: '|'}
+  - {t: '$$mdi:keyboard-tab$$', h: RAISE}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-return$$', h: LOWER}
+  - {t: '$$mdi:keyboard-return$$', h: LOWER}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: RAISE}
+  WRKMN:
+  - {t: '[', s: '{'}
+  - Q
+  - D
+  - R
+  - W
+  - B
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - BT CLR ALL
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - J
+  - F
+  - U
+  - P
+  - {t: ;, s: ':'}
+  - {t: ']', s: '}'}
+  - $$mdi:apple-keyboard-control$$
+  - A
+  - S
+  - H
+  - T
+  - G
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
-  - HOME
-  - PG UP
-  - {t: '$$mdi:transfer$$', type: trans}
-  - RGB OFF
-  - RGB ON
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - RGB EFF
-  - $$mdi:volume-off$$
+  - Y
+  - N
+  - E
+  - O
+  - I
+  - {t: '''', s: '"'}
+  - $$mdi:apple-keyboard-option$$
+  - Z
+  - X
+  - M
+  - C
+  - V
+  - $$mdi:mouse-right-click-outline$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - RGB EFR
-  - RGB SPI
-  - RGB BRI
-  - RGB BRD
-  - END
-  - PG DN
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - INS
-  - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  SYMBOL:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - K
+  - L
+  - {t: ',', s: <}
+  - {t: ., s: '>'}
+  - {t: /, s: '?'}
+  - {t: \, s: '|'}
+  - {t: '$$mdi:keyboard-tab$$', h: RAISE}
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-return$$', h: LOWER}
+  - {t: '$$mdi:keyboard-return$$', h: LOWER}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: RAISE}
+  LOWER:
+  - _
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - $$mdi:arrow-up-bold$$
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - +
   - '!'
   - '@'
   - '#'
   - $
   - '%'
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:arrow-right-bold$$
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
+  - {t: '-', s: _}
+  - {t: '=', s: +}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - {t: '5', s: '%'}
+  - $$mdi:volume-off$$
+  - $$mdi:arrow-down-bold$$
+  - '6'
+  - '7'
+  - '8'
+  - {t: '9', s: (}
+  - {t: '0', s: )}
+  - F12
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  RAISE:
+  - LEFT WIN
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - ^
   - '&'
   - '*'
   - (
   - )
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:bluetooth-off$$
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
-  - '&mkp MB4'
+  - {t: '`', s: '~'}
+  - $$mdi:progress-download$$
+  - RGB ON
+  - RGB OFF
+  - RGB HUI
+  - RGB HUD
+  - RGB SAI
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - {t: '-', s: _}
-  - {t: '=', s: +}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: \, s: '|'}
-  - {t: '`', s: '~'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB SAD
+  - RGB BRI
+  - RGB BRD
+  - RGB EFF
+  - RGB EFR
+  - RGB COLOR HSB(355,78,48)
+  - '&studio_unlock'
   - OUT USB
   - OUT BLE
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: QWERTY, h: toggle}
+  - {t: WRKMN, h: toggle}
   - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
@@ -140,12 +189,12 @@ layers:
   - '}'
   - '|'
   - '~'
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   Fn:
   - '&studio_unlock'
   - F1
@@ -191,7 +240,7 @@ layers:
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
