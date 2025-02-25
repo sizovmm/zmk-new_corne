@@ -170,9 +170,9 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - RGB SAD
-  - RGB BRI
-  - RGB BRD
-  - RGB EFF
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-up-bold$$
+  - $$mdi:arrow-right-bold$$
   - RGB EFR
   - RGB COLOR HSB(355,78,48)
   - $$mdi:progress-download$$
@@ -183,11 +183,11 @@ layers:
   - '&mkp MB5'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - '&studio_unlock'
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB BRI
+  - RGB BRD
+  - $$mdi:arrow-down-bold$$
   - PgDn
-  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB EFF
   - $$mdi:progress-download$$
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
